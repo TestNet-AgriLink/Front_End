@@ -1,0 +1,42 @@
+.containerH{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+*/
+background: url('large.gif') no-repeat center center/cover; 
+height: 500px;
+}
+
+.space{
+    padding-top: 50px;
+}
+.space1{
+    padding-top: 15px;
+}
+.textbox{
+    background-color: rgb(188, 170, 170);
+}
+/* .boxH{
+   
+   border: 2px solid black;
+    margin: 2px 5px 0 10px;
+  border-radius: 25px;
+}
+
+.boxH.boxH-1{
+    
+     background:url('flower.jpg') no-repeat center center/cover;
+     
+}
+.boxH.boxH-3{
+    
+    background:url('crops.jpg') no-repeat center center/cover;
+    
+}
+.boxH.boxH-2{
+    
+    background:url('treeblock.jpg') no-repeat center center/cover;
+    
+} */

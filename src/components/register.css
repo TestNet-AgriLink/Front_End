@@ -1,0 +1,24 @@
+.all{
+    height: 800px;
+    width: 100%;
+    background: url('blurr.jpg') no-repeat center center/cover;
+    /* opacity: 0.9; */
+}
+
+.spaceR{
+   padding-top: 100px;
+}
+    
+        
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+    align-items: center;
+
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}

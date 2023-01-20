@@ -1,0 +1,80 @@
+.allfp{
+    height: 700px;
+    width: 100%;
+    /* background: url('crops.jpg') no-repeat center center/cover; */
+    opacity: 0.8;
+}
+.containerfp{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.boxfp{
+    color: rgb(7, 6, 6);
+    margin: 10px 100px 0px 20px ; 
+    height: 400px;
+    width: 400px;
+    border: 1px solid rgb(11, 10, 10);
+}
+.containerDet{
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 0 0 0 40px;
+    background-color: rgb(196, 189, 181);
+}
+
+.spanDet{
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+#avatar{
+    
+    background-image: url('crops.jpg');
+    
+    /* make a square container */
+    width: 80px;
+    height: 80px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+    padding-left: 5px;
+}
+#avatar1{
+    
+    background-image: url('treeblock.jpg');
+    
+    /* make a square container */
+    width: 80px;
+    height: 80px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+    padding-left: 5px;
+}
+.item{
+    font-weight: 400px;
+    font-size: 20px;
+    /* font-style: italic; */
+}
